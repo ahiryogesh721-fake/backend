@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon server.js",
+    "build":"npm i",
     "start": "node server.js",
     "postinstall": "node scripts/patch-buffer-equal-constant-time.js"
   },
